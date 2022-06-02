@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/aos.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .zoom {
+            /* padding: 50px; */
+            /* background-color: green; */
+            transition: transform .5s;
+            width: 400px;
+            height: 350px;
+            margin-left: 15px;
+            margin-inline: 5px;
+        }
+        
+        .zoom:hover {
+            -ms-transform: scale(.85);
+            /* IE 9 */
+            -webkit-transform: scale(.85);
+            /* Safari 3-8 */
+            transform: scale(.85);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card">
+            <a href="#" class="w3-bar-item w3-button">e-<span style="color: darkgreen ; font-size: 20px;">Food</span> </a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-left w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="index.html" class="w3-bar-item w3-button">Steps</a>
+                <a href="index.html" class="w3-bar-item w3-button">Reviews</a>
+                <a href="index.html" class="w3-bar-item w3-button">About Us</a>
+
+
+
+                <i class="fa fa-map-marker" style="font-size:24px"></i>
+
+
+
+
+
+                <button type="button" class="btn  w3-bar-item dropdown-toggle" data-toggle="dropdown">
+                      Choose your location
+                    </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="andheri.html">Andheri</a>
+                    <a class="dropdown-item" href="bandra.html">Bandra</a>
+                    <a class="dropdown-item" href="borivali.html">Borivali</a>
+                    <a class="dropdown-item" href="kandivali.html">Kandivali</a>
+                </div>
+
+
+
+
+            </div>
+            <div style="float: right; font-size: 15px;">
+                <a href="sign.html">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center container ">
+        <br>
+        <br><br>
+        <h3><br><b>Kandivali</b><br></h3>
+        <div class="row ">
+            <div class="card zoom " style="width:370px">
+                <img class="card-img-top" src="./image/ka1.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Kitchen-CrewKitchen-Crew</b></h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                    <p class="card-text">Average 4.5 / 5</p>
+
+                </div>
+            </div>
+            <div class="card zoom " style="width:370px">
+                <img class="card-img-top" src="./image/ka2.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Big Chef's Restaurant</b></h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                    <p class="card-text">Average 5 / 5</p>
+
+                </div>
+            </div>
+            <div class="card zoom " style="width:370px">
+                <img class="card-img-top" src="./image/ka3.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Ruchi Restaurant</b></h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                    <p class="card-text">Average 3.5 / 5</p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row my-5">
+            <div class="card zoom " style="width:370px">
+                <img class="card-img-top" src="./image/ka4.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Square pizza</b></h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                    <p class="card-text">Average 4.5 / 5</p>
+
+                </div>
+            </div>
+            <div class="card zoom " style="width:370px">
+                <img class="card-img-top" src="./image/ka5.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title"><b>99-Pancakes</b></h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                    <p class="card-text">Average 5 / 5</p>
+
+                </div>
+            </div>
+            <div class="card zoom " style="width:370px">
+                <img class="card-img-top" src="./image/ka6.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Wow! Momo</b></h4>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-empty"></i>
+                    <p class="card-text">Average 3.5 / 5</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Footer -->
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+<footer class="container-fluid  m-3  text-center">
+
+    <h1>e-<span style="color: rgb(29, 221, 29) ; font-size: 35px;">Food</span><br></h1>
+    <hr>
+    <div class="row text-center" id="3">
+        <div class="col-4">
+            <br>
+            <p>Any questions? Feel free to contact us!
+
+            </p>
+            <p> <i class="fa fa-map-marker" style="font-size:24px"></i> Mumbai, India</p>
+            <p> <i class="fa fa-mobile-phone" style="font-size:24px"></i> Phone: +9029992209</p>
+            <p> <i class="fa fa-envelope" style="font-size:24px"></i> Email: efood@gmail.com</p>
+
+
+        </div>
+        <div class="col-4">
+            <br>
+            <p>About e-Food
+            </p>
+            <p> Become a Delivery Partner</p>
+            <p> Become a Restaurant Partner</p>
+
+
+        </div>
+        <div class="col-4">
+            <br>
+            <p> Help </p>
+            <p> FAQs</p>
+            <p> Blog</p>
+
+
+        </div>
+
+    </div>
+    <hr>
+
+    <img src="./image/f1.png" style="margin-left: 30px; width: 150px; height: 30px;" alt="img">
+    <img src="./image/f2.png" style="width: 150px; height: 30px;" alt="img">
+
+
+</footer>
+<br><br>
+<hr>
+
+
+<p class="text-center"><a href="#"><span class="glyphicon glyphicon-chevron-up "></span></a>
+</p>
+
+</html>
